@@ -1,0 +1,246 @@
+
+body{
+  font: Arial, Helvetica, sans-serif;
+  margin:0;
+  padding: 0;
+}
+*{
+  box-sizing: border-box;
+}
+
+#container{
+  display: flex;
+  flex-direction: column;
+  /* 100vh is full height */
+  height: 100vh;
+  /* setting width relative is a dynamic practise  */
+  width: 90%;
+  /* border: 1px solid grey; */
+  /* height: 100px; */
+  margin: 0 auto;
+}
+ h1 a{
+  font-size: 50px;
+  font-weight: 100;
+  text-decoration: none;
+  color: #861BBF;
+
+}
+#header{
+
+  display: flex;
+  flex-wrap: wrap;
+  /* height: 100px; */
+  padding:10px 0px ;
+
+}
+#brand{
+  /* float: left; */
+  flex: 50%;
+  /* min-width: 400px; */
+}
+
+#search_box{
+
+  /* float: right; */
+  flex:50%;
+  background: -webkit-linear-gradient(#E4F2B9,#B7E953);
+  min-width: 400px;
+  /* height:100px; */
+
+  padding: 20px ;
+  font-size: 15px;
+  color: red;
+  /* margin-top:20px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+._text{
+  float: left;
+  width: 200px;
+  color: red;
+  padding: 5px;
+  background: white url(1024px-Search_Icon.svg.png) right center no-repeat ;
+  border: 1px solid #C8D03E;
+
+
+
+
+}
+.submit{
+  float: right;
+  padding: 5px;
+  font-weight: bold;
+  color: white;
+  background: #A751D6;
+  font-size: 15px;
+
+}
+.clear{
+  /* The clear property specifies what should happen with the element that is next to a floating element. */
+  clear: both;
+
+}
+#menu{
+  display: flex;
+  flex:50%;
+  flex-wrap: wrap;
+  /* height: 70px; */
+  /* max-width: 20%; */
+  background: -webkit-linear-gradient(#F8F594, #D5D533);
+  background: -moz-linear-gradient(#F8F594, #D5D533);
+  background: -o-linear-gradient(#F8F594, #D5D533);
+
+  padding: 20px 0px;
+}
+/* ul {
+  list-style: none;
+} */
+
+#menu a{
+/* float: left; */
+padding: 0 30px;
+height: 30px;
+border-right: 1px solid #5d12e7;
+text-decoration: none;
+font-size: 1.1em;
+
+}
+#menu a:last-child{
+  border-right: none;
+}
+
+#menu ul li a{
+  text-decoration:  none;
+  /* text transfomration is for making it uppercase, lowercase etc */
+  text-transform: uppercase;
+  font-size: 17px;
+  color: #5d12e7;
+  /* for verical height of list items */
+  line-height: 30px;
+
+}
+#menu a:hover,#menu  a.active{
+  color: #C34F08;
+  font-weight: bold;
+  font-size: 20px;
+  /* linear is used to keep the transition time same from the beginning to the end */
+  -webkit-transition: 0.2s ease;
+  -moz-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  -ms-transition: 0.2s ease;
+  transition: 0.2s ease;
+
+}
+/* Small screen : vertical menu */
+/* This is CSS media Query */
+@media screen and (max-width:700px){
+
+  #menu{
+    flex-direction: column;
+    /* align-items: center; */
+    align-content: center;
+  }
+  #menu a{
+    border-right: none;
+  }
+}
+
+#introduction{
+  background:-webkit-linear-gradient(#E5F2BB, #B7E952) ;
+  padding: 30px;
+  margin: 15px 0px;
+}
+#introduction h3{
+  font-size: 40px;
+  color: #316901;
+  font-weight: normal;
+}
+#introduction p{
+  font-size: 25px;
+  color: #628F19;
+  text-align: justify;
+}
+.sidebarwrapper{
+  padding: 10px;
+  flex:50%;
+}
+.sidebar{
+  height: 100%;
+  width:100%;
+  border:1px solid #BAF46F;
+  border-radius: 20px;
+  padding: 10px 30px;
+  /* flex:50%; */
+  /* display: flex; */
+  /* margin: 10px; */
+
+}
+.sidebar h3{
+  color: #B314DB;
+  font-size: 30px;
+
+
+}
+.sidebar ul{
+  padding-top: 8px;
+}
+#left-side-bar ul li{
+  padding-bottom: 3px;
+  list-style-image: url(bullets.png);
+  padding-left: 10px;
+
+}
+#right-side-bar ul li {
+  padding-bottom: 6px;
+  list-style-image: url(tick.png);
+  padding-left: 10px;
+  padding-top: 20px;
+  /* padding: 20px 0 20px 70px; */
+
+}
+.sidebar ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #5d12e7;
+
+}
+.sidebar ul li a:hover, .sidebar ul li a.active{
+text-decoration: none;
+font-size:23px;
+color: #C34F08;
+font-weight: bold;
+-webkit-transition: 0.2s ease;
+-moz-transition: 0.2s ease;
+-o-transition: 0.2s ease;
+-ms-transition: 0.2s ease;
+transition: 0.2s ease;
+
+
+}
+.sidebars{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+/* #left-side-bar{
+float: left;
+}
+
+#right-side-bar{
+float: right;
+} */
+
+.footer{
+
+
+  height: 60px;
+  background: -webkit-linear-gradient(#F6F390, #D5D533);
+  padding: 10px 20px;
+  margin-top: auto;
+
+}
+/* Css media query will allow us to appply certain query for a certain medias */
