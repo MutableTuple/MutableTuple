@@ -1,7 +1,8 @@
 - 👋 Hi, I’m @Yogesh_Vishwakarma
 - 👀 Software Developer
-- 🌱 I’m currently learning Web & Mobile Development
-- 💞️ I’m looking to collaborate on Full stack Web Dev projects
+- 🌱 Web & Mobile Development
+- 💞️ Full stack Web Dev projects
+- 🌍 Stepping into AI/ML world
 - 📫 Contact me on my email: yogeshvksm@gmail.com
 
 <!---
