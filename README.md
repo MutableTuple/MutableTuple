@@ -1,9 +1,4 @@
-- 👋 Hi, I’m @Yogesh_Vishwakarma
-- 👀 Software Developer
-- 🌱 Web & Mobile Development
-- 💞️ Full stack Web Dev projects
-- 🌍 Stepping into AI/ML world
-- 📫 Contact me on my email: yogeshvksm@gmail.com
+building softwares that scale with AI!
 
 <!---
 MutableTuple/MutableTuple is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
